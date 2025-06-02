@@ -1,12 +1,35 @@
-# React + Vite
+# 🛍️ Shopify React Storefront
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **headless Shopify storefront** built with **React**, **Vite**, and the **Shopify Storefront API**. This project uses modern libraries like Chakra UI, React Router, Swiper, and Framer Motion to deliver a sleek, responsive shopping experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ⚛️ React 19 + Vite for fast development
+- 🎨 Chakra UI for flexible styling and theme management
+- 🛒 Integration with Shopify Storefront API
+- 🌐 Client-side routing with React Router
+- 🖼️ Swiper.js for image carousels/sliders
+- 💡 Dark/light mode support via `next-themes`
+- 💬 Toast notifications and tooltips
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Tech Stack
+
+- **Frontend**: React, Vite, Chakra UI, React Router
+- **API**: Shopify Storefront API (`@shopify/storefront-api-client`)
+- **Styling**: Emotion CSS-in-JS
+- **UX**: Framer Motion, Swiper, Toasts
+- **Dev Tools**: ESLint, TypeScript typings
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Tamim-10/shopify-react-storefront.git
+cd shopify-react-storefront
